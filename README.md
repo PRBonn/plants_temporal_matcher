@@ -36,7 +36,7 @@ TODO
 
 
 ## Dataset
-If you want to test this code on the dataset presented in the paper, please send an email to [Luca Lobefaro](mailto:llobefar@uni-bonn.de?subject=[GitHub]%20Data%Request).
+If you want to test this code on the dataset presented in the paper, please send an email to [Luca Lobefaro](mailto:llobefar@uni-bonn.de?subject=[GitHub]%20Data%20Request).
 
 
 
