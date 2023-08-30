@@ -35,6 +35,11 @@ TODO
 
 
 
+## Dataset
+If you want to test this code on the dataset presented in the paper, please send an email to [Luca Lobefaro](mailto:llobefar@uni-bonn.de?subject=[GitHub]%20Data%Request).
+
+
+
 ## Publication
 If you use our code in your academic work, please cite the corresponding [paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/lobefaro2023iros.pdf):
 
