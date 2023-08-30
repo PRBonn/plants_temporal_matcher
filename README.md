@@ -56,4 +56,4 @@ If you use our code in your academic work, please cite the corresponding [paper]
 
 
 ## License
-This project is free software made available under the MIT License. For details see the LICENSE file.
+This project is free software made available under the MIT License. For details see the [LICENSE](https://github.com/PRBonn/plants_temporal_matcher/blob/main/LICENSE) file.
