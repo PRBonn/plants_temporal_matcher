@@ -1,0 +1,20 @@
+point_unprojection:
+  min_depth_th: 0.6
+  max_depth_th: 1.0
+  scale_factor: 1000
+
+sparse_matcher:
+  unprojected_keypts_nn_th: 0.005
+  max_dist_associated_points: 0.5
+
+dense_matcher:
+  nearest_point_same_map_th: 0.1 # 0.05
+  nearest_point_other_map_th: 0.05 # 0.001
+
+general:
+  n_frames: 100
+  n_ref_frames: 100
+  depth_min_th: 0.4 # 0.6
+  depth_max_th: 1.0
+  n_sensors: 1
+  icp_th: 0.5
