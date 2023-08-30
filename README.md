@@ -6,7 +6,7 @@
     <a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
 
 <p>
-  <img src="https://github.com/PRBonn/plants_temporal_matcher/images/first_image.png" width="500"/>
+  <img src="https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/first_image.png" width="500"/>
 </p>
 
 <p>
