@@ -31,12 +31,48 @@ pip install -r requirements.txt
 
 
 ## How to Use It
-TODO
+We propose two scripts:
+* temporal_matcher.py -> it compute associations between the point cloud extracted from a single frame and a reference map: (the script used to evaluate the system in our paper)
+* sparse_maps_matcher.py -> it takes two pre-computed maps and extract all the 3D point-to-point associations between them
+
+In order to understand how to use the code it is important to keep in mind these information:
+* The dataset is divided in sessions, each session is indicated by a number, ordered according to the time in which the recording was made
+* We refer with the name "reference" to the RGB-D sequence recorded first and with "query" to the RGB-D sequence recorded after
+* Each session is divided in rows, where each row is an actual different row in the glasshouse: of course, associations can be computed only between same rows
+
+
+Type:
+```bash
+python temporal_matcher.py --help
+```
+or
+```bash
+python sparse_maps_matcher.py --help
+```
+to see how to run the scripts.
+<details>
+<summary>This is the output from the first script</summary>
+
+![temporal matcher help](https://github.com/PRBonn/plants_temporal_matcher/images/temporal_matcher_help.png)
+
+</details>
+
+<details>
+<summary>This is the output from the second script</summary>
+
+![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/images/sparse_maps_matcher_help.png)
+
+</details>
+
+This is an example on how to call the script:
+```bash
+python temporal_matcher.py /path/to/the/dataset/ --ref-number 1 --query-number 2 --row-number 3 --render-matches --no-visualize-map 
+```
 
 
 
 ## Dataset
-If you want to test this code on the dataset presented in the paper, please send an email to [Luca Lobefaro](mailto:llobefar@uni-bonn.de?subject=[GitHub]%20Data%20Request).
+If you want to test this code on the dataset presented in the paper and reproducing the results, please send an email to [Luca Lobefaro](mailto:llobefar@uni-bonn.de?subject=[GitHub]%20Data%20Request).
 
 
 

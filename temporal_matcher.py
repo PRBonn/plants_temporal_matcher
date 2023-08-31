@@ -24,7 +24,7 @@ def main(
         typer.Argument(
             help="The path to the folder where it is contained the dataset to deal with."
         ),
-    ] = "/home/luca/HDD8G/datasets/PATHoBot2023_clean/",
+    ] = "dataset/",
     ref_number: Annotated[
         int, typer.Option(help="Number of the dataset to use as reference")
     ] = 1,
