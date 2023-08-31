@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## How to Use It
 We propose __two__ scripts:
-* __temporal_matcher.py__ -> it compute associations between the point cloud extracted from a single frame and a reference map: (the script used to evaluate the system in our paper)
+* __temporal_matcher.py__ -> it compute associations between the point cloud extracted from a single frame and a reference map (the script used to evaluate the system in our paper)
 * __sparse_maps_matcher.py__ -> it takes two pre-computed maps and extract all the 3D point-to-point associations between them
 
 In order to understand how to use the code it is important to keep in mind these __information__:
