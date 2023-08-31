@@ -51,19 +51,19 @@ python sparse_maps_matcher.py --help
 ```
 to see how to run the scripts.
 <details>
-<summary>This is the output from the first script ( __temporal_matcher.py__ )</summary>
+<summary>This is the output from the first script: __temporal_matcher.py__ </summary>
 
-![temporal matcher help](https://github.com/PRBonn/plants_temporal_matcher/images/temporal_matcher_help.png)
+![temporal matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/temporal_matcher_help.png)
 
 </details>
 <details>
-<summary>This is the output from the second script ( __sparse_maps_matcher.py__ )</summary>
+<summary>This is the output from the second script: __sparse_maps_matcher.py__ </summary>
 
-![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/images/sparse_maps_matcher_help.png)
+![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/sparse_maps_matcher.png)
 
 </details>
 
-This is an example on __how to call__ the script:
+This is an __example__ on how to call the script:
 ```bash
 python temporal_matcher.py /path/to/the/dataset/ --ref-number 1 --query-number 2 --row-number 3 --render-matches --no-visualize-map 
 ```
