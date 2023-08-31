@@ -5,6 +5,9 @@
     <a href="https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/lobefaro2023iros.pdf"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
     <a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
 
+<p>
+  <img src="https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/first_image.png" width="700"/>
+</p>
 
 <p>
   <i>This system can perform 3D point-to-point associations between plants' point clouds acquired in different session even in presence of highly repetitive structures and drastic changes.</i>
