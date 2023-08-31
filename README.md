@@ -59,7 +59,7 @@ to see how to run the scripts.
 <details>
 <summary>This is the output from the second script (<strong>sparse_maps_matcher.py</strong>) </summary>
 
-![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/sparse_maps_matcher_help.png)
+![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/sparse_temporal_matcher_help.png)
 
 </details>
 
