@@ -51,15 +51,15 @@ python sparse_maps_matcher.py --help
 ```
 to see how to run the scripts.
 <details>
-<summary>This is the output from the first script: **temporal_matcher.py** </summary>
+<summary>This is the output from the first script (<strong>temporal_matcher.py</strong>) </summary>
 
 ![temporal matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/temporal_matcher_help.png)
 
 </details>
 <details>
-<summary>This is the output from the second script: **sparse_maps_matcher.py** </summary>
+<summary>This is the output from the second script (<strong>sparse_maps_matcher.py</strong>) </summary>
 
-![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/sparse_maps_matcher.png)
+![sparse maps matcher help](https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/sparse_maps_matcher_help.png)
 
 </details>
 
