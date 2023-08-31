@@ -78,6 +78,8 @@ def main(
     # Load the datasets
     ref_dataset = PATHoBotDataset(ref_folder, n_sensors, reference_dataset=True)
     query_dataset = PATHoBotDataset(query_folder, n_sensors)
+    if n_ref_frames <= 0:
+        n_ref_frames = len(ref_dataset)
 
     # Load the maps
     matched_map = MatchedMap(ref_folder, query_folder)
@@ -103,7 +105,7 @@ def main(
         print(f"Frame {current_frame_idx}: ", end="")
 
         # Stop when we reach the number of frames to deal with
-        if current_frame_idx == n_frames:
+        if n_frames > 0 and current_frame_idx == n_frames:
             break
 
         # Get the reference frame idx associated to the current frame idx
