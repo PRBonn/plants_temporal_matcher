@@ -12,9 +12,10 @@ dense_matcher:
   nearest_point_other_map_th: 0.05 # 0.001
 
 general:
+  first_frame_idx: 359
   n_frames: -1
   n_ref_frames: -1
   depth_min_th: 0.4 # 0.6
   depth_max_th: 1.0
-  n_sensors: 1
+  n_sensors: 3
   icp_th: 0.5

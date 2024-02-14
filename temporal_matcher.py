@@ -16,6 +16,7 @@ from mapping.localizer import Localizer
 from utils.loading_tools import load_config, get_folders_name_from_number
 from vision.dataset import PATHoBotDataset
 from vision.matching import visual_match, unproject_matches, render_map_matches
+import open3d as o3d
 
 
 def main(
@@ -88,6 +89,11 @@ def main(
         # LOGGING
         print()
         print(f"Frame {idx}: ", end="")
+
+        if idx < cfg["general"]["first_frame_idx"]:
+            print(f"Frame {idx} skipped")
+            world_map.integrate_query_pcd(o3d.geometry.PointCloud())
+            continue
 
         # Localize the current query
         ref_frames, query_pose, ref_pose = localizer.localize(
