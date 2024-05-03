@@ -3,7 +3,7 @@
   <a href="https://github.com/PRBonn/plants_temporal_matcher#how-to-use-it"><img src="https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54" /></a>
     <a href="https://github.com/PRBonn/plants_temporal_matcher#installation"><img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" /></a>
     <a href="https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/lobefaro2023iros.pdf"><img src="https://img.shields.io/badge/Paper-pdf-<COLOR>.svg?style=flat-square" /></a>
-    <a href="https://lbesson.mit-license.org/"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
+    <a href="https://github.com/PRBonn/plants_temporal_matcher/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
 
 <p>
   <img src="https://github.com/PRBonn/plants_temporal_matcher/blob/main/images/first_image.png" width="700"/>
