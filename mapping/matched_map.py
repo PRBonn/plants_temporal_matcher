@@ -1,3 +1,24 @@
+# MIT License
+
+# Copyright (c) 2023 Luca Lobefaro, Meher V. R. Malladi, Olga Vysotska, Tiziano Guadagnino, Cyrill Stachniss
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 from tqdm import tqdm
 import open3d as o3d
 from typing import List, Tuple
@@ -252,9 +273,9 @@ class MatchedMap:
                     self._ref_point_transformations[nn_pt_id] = (
                         query_points[nearest_query_pts_ids[0]] - ref_points[nn_pt_id]
                     )
-                    self._ref_point_transformations_dists[
-                        nn_pt_id
-                    ] = nearest_query_pts_dists[0]
+                    self._ref_point_transformations_dists[nn_pt_id] = (
+                        nearest_query_pts_dists[0]
+                    )
                     self._query_point_transformations[nearest_query_pts_ids[0]] = (
                         ref_points[nn_pt_id] - query_points[nearest_query_pts_ids[0]]
                     )
@@ -314,15 +335,15 @@ class MatchedMap:
                     self._ref_point_transformations[nearest_ref_pts_ids[0]] = (
                         query_points[nn_pt_id] - ref_points[nearest_ref_pts_ids[0]]
                     )
-                    self._ref_point_transformations_dists[
-                        nearest_ref_pts_ids[0]
-                    ] = nearest_ref_pts_dists[0]
+                    self._ref_point_transformations_dists[nearest_ref_pts_ids[0]] = (
+                        nearest_ref_pts_dists[0]
+                    )
                     self._query_point_transformations[nn_pt_id] = (
                         ref_points[nearest_ref_pts_ids[0]] - query_points[nn_pt_id]
                     )
-                    self._query_point_transformations_dists[
-                        nn_pt_id
-                    ] = nearest_ref_pts_dists[0]
+                    self._query_point_transformations_dists[nn_pt_id] = (
+                        nearest_ref_pts_dists[0]
+                    )
                     self._point_matches_query2ref[nn_pt_id] = nearest_ref_pts_ids[0]
 
         # Consolidate found transformations by setting distances to 0
