@@ -16,6 +16,7 @@
 </div>
 
 
+**IMPORTANT**: if you are searching for a repository to compute temporal data association take a look to our [new repo](https://github.com/PRBonn/spatio-temporal-mapping), you will find a nice extension of this research.
 
 ## Installation
 First, clone our repository
